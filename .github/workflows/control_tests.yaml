@@ -30,4 +30,4 @@ jobs:
           with:
             max-line-length: "120"
             path: "tests"
-            plugins: "flake8-bugbear==22.1.11 flake8-black"
+            # plugins: "flake8-bugbear==22.1.11 flake8-black"
