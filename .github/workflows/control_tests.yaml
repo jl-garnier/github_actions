@@ -23,7 +23,6 @@ jobs:
           run: |
             pytest
 
-<<<<<<< HEAD
         - name: Run flake8 Lint
           # run: |
           #   # fail if there are any flake8 errors
@@ -33,9 +32,3 @@ jobs:
             max-line-length: "100"
             path: "tests"
             # plugins: "flake8-bugbear==22.1.11 flake8-black"
-=======
-        - name: Run flake8
-          uses: py-actions/flake8@v2
-          env:
-            GITHUB_TOKEN: ${{ github.token }}
->>>>>>> bccca3f556f2941911cb5dfa7b48438721838d7b
